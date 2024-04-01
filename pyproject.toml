@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "PDF_CHAT"
+version = "0.1.0"
+description = "App to analyze specification against products documents"
+authors = ["Henrique Innecco <hinnecco@gmail.com>"]
+license = "copyright hinnecco"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.32.2"
+python-dotenv = "^1.0.1"
+pypdf2 = "^3.0.1"
+langchain = "^0.1.13"
+faiss-cpu = "^1.8.0"
+openai = "^1.14.3"
+huggingface-hub = "^0.22.2"
+watchdog = "^4.0.0"
+langchain-openai = "^0.1.1"
+langchain-community = "^0.0.29"
+instructorembedding = "^1.0.1"
+sentence-transformers = "==2.2.2"
+setuptools = "^69.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
